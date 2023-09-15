@@ -1,9 +1,9 @@
 #include "shell.h"
 /**
- * fork_execute_function - perform(exe)the program in a child process
- * @array_string: the line input from the user in array
- * @env: parent array environmental variable
- * Return: void
+ * fork_execute_function - make A PEforM exe  program in a child PROC
+ * @array_string: DO THE Line input from the user Array
+ * @env: PArent Array ENv variable
+ * Return: FUNCT void
  */
 pid_t fork_execute_function(char **array_string, char *env[])
 {

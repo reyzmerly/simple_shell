@@ -1,11 +1,11 @@
 #include "shell.h"
 /**
- * my_strcmp - Compare two strings.
- * @string1: The first string to compare.
- * @string2: The second string to compare.
- * Return: 0 on equality
- * a - value if @string1 < @string2,
- * or a + value if @string1 > @string2.
+ * my_strcmp - comp  Two STrings.
+ * @string1: THIS IS FOR  First string to compare.
+ * @string2: THIS IS FOR The Second string to compare.
+ * Return: ON RETURN  0 on Equality
+ * a - VAlue if @string1 < @string2,
+ * OR A + value if @string1 > @string2.
  */
 int my_strcmp(const char *string1, const char *string2)
 {

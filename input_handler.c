@@ -1,10 +1,10 @@
 #include "shell.h"
 /**
- * handle_input - ask if the input has | it calls the func to handle it
- * if it doesn't have it call handle command function
- * @input: line_input which we are searching in it
- * @envp: enviromantal variable
- * Return: Nothing
+ * handle_input - MUST Ask if the input has || IT Calls the func to handle it
+ * if it Doesn't Have it call A handle command function
+ * @input: input the Line_input which we are searching in it
+ * @envp: Enviro variable
+ * Return: nothing or none
 */
 void handle_input(char *input, char *envp[])
 {

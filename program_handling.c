@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
- * create_my_child - create child process
- * @myinput_fd: file describtor for the input
- * Return: 0 on child, positive on parent
+ * create_my_child - first  Create THIS child process
+ * @myinput_fd: THEN PROCESS  file describtor for the input
+ * Return: WHEN  0 on child, MEANS Positive On parent
  **/
 pid_t create_my_child(int *myinput_fd)
 {

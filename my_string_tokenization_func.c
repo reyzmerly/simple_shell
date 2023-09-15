@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
- * string_tokenization - breaking down the input into small pieces
- * @str: line input from the user
- * Return: array of broken down commands
+ * string_tokenization - BReaking Down the input into small PARTS
+ * @str: MAKE  Line input from the user
+ * Return: AN Array OF Broken down commands
  **/
 char **string_tokenization(char *str)
 {

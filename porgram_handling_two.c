@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
- * command_execution - excute the cmd
- * @my_cmd: the command
- * Return: nothind
+ * command_execution - MAKE EXcute the COMMAND
+ * @my_cmd: The command RUN
+ * Return: Nothind \NONE
  **/
 void command_execution(char *my_cmd)
 {
@@ -18,10 +18,10 @@ void command_execution(char *my_cmd)
 	exit(EXIT_FAILURE);
 }
 /**
- * sys_cust - interface to excute the cmd
- * @my_cmd: take the command
- * @in_fd: file describtor for it
- * Return: exit_status
+ * sys_cust - INTerface to excute THe cmd
+ * @my_cmd: TAKE The command
+ * @in_fd: CHECK FILE  DEScribtor for it
+ * Return: make an Exit_Status
  */
 int sys_cust(char *my_cmd, int in_fd)
 {

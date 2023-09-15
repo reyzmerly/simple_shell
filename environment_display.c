@@ -1,20 +1,20 @@
 #include "shell.h"
 /**
- * my_exit - exit the program
- * @argument: it's an array of arguments
- * Return: doesn't return anything
+ * my_exit - MAKE Exit The program
+ * @argument: IS IT an Array of arguments
+ * Return: IF IT Doesn't MAKE any  return
  **/
 void my_exit(char **argument)
 {
-	int my_stat = 0, a;
+	int my_stat = 0, j;
 
 	if (argument[1] != NULL)
 	{
 		my_stat = my_atoi(argument[1]);
 	}
-	for (a = 0; argument[a] != NULL; a++)
+	for (j = 0; argument[j] != NULL; j++)
 	{
-		free(argument[a]);
+		free(argument[j]);
 	}
 	free(argument);
 	exit(my_stat);

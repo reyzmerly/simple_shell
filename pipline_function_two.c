@@ -1,17 +1,17 @@
 #include "shell.h"
 /**
- * create_pipes - pipes creator function.
- * @pipefd: container to store the fd of |
- * @num_pipes: how many numbers of | tp create
- * Return: if we did it =>0 on success,if not =>1 on failure
+ * create_pipes - create ASOME  Pipes Function.
+ * @pipefd: CAN COntaiN AND   store the fd of |
+ * @num_pipes: AND  How many numbers of | tp create
+ * Return: IF  we did AWESOME =>0 on success,IF NO =>1 ON FAIL
  */
 int create_pipes(int pipefd[][2], int num_pipes)
 {
-	int i;
+	int j;
 
-	for (i = 0; i < num_pipes; i++)
+	for (j = 0; j < num_pipes; j++)
 	{
-		if (pipe(pipefd[i]) == -1)
+		if (pipe(pipefd[j]) == -1)
 		{
 			perror("pipe");
 			return (1);
@@ -20,25 +20,25 @@ int create_pipes(int pipefd[][2], int num_pipes)
 	return (0);
 }
 /**
- * free_commands - free memory.
- * @commands: commandds array
- * @num_commands: count of commands
- * Return: nooooooothing
+ * free_commands - MAKE A free MeMORY.
+ * @commands:TAKE  Commandds Array
+ * @num_commands: DO THE COUNT OF commands
+ * Return: Ohhh none unfurtutnately
  */
 void free_commands(char *commands[], int num_commands)
 {
-	int i;
+	int j;
 
-	for (i = 0; i < num_commands; i++)
+	for (j = 0; j < num_commands; j++)
 	{
-		free(commands[i]);
+		free(commands[j]);
 	}
 }
 /**
- * my_pipline_handler - pipline  cmd handler.
- * @pipeline:string of pipline  cmds
- * @envp: env var array
- * Return: 0 on success, 1 on failure
+ * my_pipline_handler - PIP  cmd Handler.
+ * @pipeline: DISPLAY STR of pipline  cmds
+ * @envp: envP Var Array
+ * Return: Display  0 on success, 1 on fail
  */
 int my_pipline_handler(char *pipeline, char *envp[])
 {

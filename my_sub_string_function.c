@@ -1,9 +1,9 @@
 #include "shell.h"
 /**
- * my_substr - it's like searching on a word in sentence
- * @sentence: the first param and where we are searching in
- * @word: the part which we are searching about
- * Return: pointer to the address where we find that word in the sent
+ * my_substr - IT's LIke searching FOR  a word in A sentence
+ * @sentence: FOR THE First par and WHere we are searching THAT
+ * @word: A Part WHCH WE ARE searching about
+ * Return: THE POInter TO The address THAT WE FOUND that word in the sent
 */
 char *my_substr(char *sentence, char *word)
 {

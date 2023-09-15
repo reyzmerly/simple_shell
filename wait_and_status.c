@@ -1,10 +1,10 @@
 #include "shell.h"
 /**
- * my_strcpy - cp str
- * @to_dest: the destination
- * @from_scr: the source
+ * my_strcpy - copy the str
+ * @to_dest: paste to its destination
+ * @from_scr: get it from  the source
  *
- * Return: pointer to destination
+ * Return: program ret  Pointer To DEStination
  */
 char *my_strcpy(char *to_dest, char *from_scr)
 {
@@ -22,10 +22,10 @@ char *my_strcpy(char *to_dest, char *from_scr)
 }
 #include "shell.h"
 /**
- * my_strcat - function concatenate two strings togwther
- * @str1: sstring one
- * @str2: string two
- * Return: pointer to variable
+ * my_strcat - FUNCT ConCatenate Two STrinG INTO ONE
+ * @str1: MAKE  sstring One
+ * @str2: MAKE  string Two
+ * Return: MAKE  POinter to variable
  */
 char *my_strcat(const char *str1, const char *str2)
 {

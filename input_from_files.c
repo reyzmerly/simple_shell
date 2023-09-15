@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
- * my_dubler - like the fork, i separate the string into two
- * @str: string to be devided into two
- * Return: pointer to my_dubler string
+ * my_dubler - this Like the fork, can be separate the string into two
+ * @str: SEARCH string that can  be devided into two
+ * Return: POinter to my_dubler stR
  */
 char *my_dubler(char *str)
 {
@@ -23,9 +23,9 @@ char *my_dubler(char *str)
 
 #include "shell.h"
 /**
- * my_strlen - count the num of charater in the str
- * @str: string to be checked
- * Return: length of str
+ * my_strlen - MAKE COUNT the num of charater in the str
+ * @str: CHECK  String to be checked
+ * Return: the Length of str
  */
 int my_strlen(char *str)
 {

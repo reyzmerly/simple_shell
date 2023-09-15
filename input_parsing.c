@@ -1,7 +1,7 @@
 #include "shell.h"
 /**
- * handle_non_terminal_input - handle any input from non terminal
- * Return: nothing
+ * handle_non_terminal_input - MAKE A HAndle Input from non term
+ * Return: DO  nothing
  **/
 void handle_non_terminal_input(void)
 {

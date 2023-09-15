@@ -1,9 +1,9 @@
 #include "shell.h"
 /**
- * read_input -  from stdin using getline
- * @line_input: Pointer to store the input line
- * @size_input: Pointer to store the size of allocated memory
- * Return: num of characters read (-1 if error)
+ * read_input - READ From stdin  FUNCusing getline
+ * @line_input: CHECK POInter to store the input line
+ * @size_input: TAKE POInter to store the size of allocated memory
+ * Return: MAKE  num OF Chars read (-1 if error)
  */
 ssize_t read_input(char **line_input, size_t *size_input)
 {
@@ -19,8 +19,8 @@ ssize_t read_input(char **line_input, size_t *size_input)
 
 
 /**
-* my_env - print the environmental variables of the shell
-* Return: 1
+* my_env - MAKE A Print Environmental varS of the shell
+* Return: 1 WHEN RUN
 **/
 int my_env(void)
 {

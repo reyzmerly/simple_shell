@@ -1,12 +1,12 @@
 #include "shell.h"
 /**
- * handle_command - it looks if the command and check
- * if it  a- build in function
- * OR b- has a file in the dir /bin/, OR 3- has a path
- * @command: line_input from the user and the one
- * which we will edit on it
- * @envp: EnViromental variable[]
- * Return: integer value
+ * handle_command - THIS Looks IF the command and check
+ * if is  a- build in function
+ * OR b- Has a file in the dir /bin/, OR 3- Has a path
+ * @command: MAKE  Line_input from the user and the one
+ * which We Will Edit On It
+ * @envp: MAKE  EnVP variable[]
+ * Return: AN integerS value
 */
 int handle_command(char *command, char *envp[])
 {

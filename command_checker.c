@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
- * path_check_function - check if the command has the path /bin/
- * @final_string: line input token from the line input
- * Return: 1 if the path is found, 0 if false
+ * path_check_function - THIS Check the command has the path /bin/
+ * @final_string: WILL Line Input Token from the IN  input
+ * Return: THE VALUE 1 IF The path is found, 0 if false
  */
 int path_check_function(char *final_string)
 {

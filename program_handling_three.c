@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
- * wait_for_my_child - wait the child proccess to exit
- * @my_child: pid of the child proccess
- * Return: signal if error, exit status SUCCESS
+ * wait_for_my_child - ohh Wait The child proccess MUST Exit
+ * @my_child: LOOK INTO  pid OF  the Child pccess
+ * Return: MAKE A  signal If error, Exit status ON  SUCCESS
  **/
 int wait_for_my_child(pid_t my_child)
 {

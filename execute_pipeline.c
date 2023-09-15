@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
- * file_check - check if the command file exists in /bin/
- * @final_string: input line from user to check
- * Return: NULL if not found, otherwise the full path to the command
+ * file_check - make it Check FOR the command file ExistING in /bin/
+ * @final_string: DO AN  Input line from user to check
+ * Return: MAKE A NULL if not found, OR the full path to the command
  */
 char *file_check(char *final_string)
 {

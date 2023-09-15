@@ -1,10 +1,10 @@
 #include "shell.h"
 /**
- * main - entry point to the program
- * @argc: the number of arguments
- * @argv: array of arguments
- * @envp: array of environmental variables
- * Return: Exit SUCCESS
+ * main - an  Entry point to The program
+ * @argc: The number of Arguments IN THE PROGRAM
+ * @argv: REPRESENT Array of Arguments
+ * @envp: FUNCT FOR  Array of Environmental variables
+ * Return: WILL FINALLY  Exit SUCCESS
  **/
 int main(int argc, char *argv[], char *envp[])
 {
